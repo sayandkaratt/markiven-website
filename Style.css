@@ -294,6 +294,11 @@
             text-align-last: center;
         }
 
+        .addon .card-content {
+            color: var(--accent);
+            margin-bottom: 0.5rem;
+        }
+
         @media (max-width: 1024px) {
             .pricing-grid {
                 grid-template-columns: 1fr; /* Stack into 1 column on mobile/tablets */
